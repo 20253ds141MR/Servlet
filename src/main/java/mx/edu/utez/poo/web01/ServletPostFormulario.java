@@ -24,7 +24,7 @@ public class ServletPostFormulario extends HttpServlet {
             req.setAttribute("error", "El usuario y contraseña son obligatorios");
             req.getRequestDispatcher("/WEB-INF/formulario.jsp").forward(req, resp);
 
-        } else if (username.equals("juan@halconfiera3000") && password.equals("12345")) {
+        } else if (username.equals("marina@utez.edu.mx") && password.equals("12345")) {
             req.getRequestDispatcher("/WEB-INF/home.jsp").forward(req, resp);
 
         } else {
