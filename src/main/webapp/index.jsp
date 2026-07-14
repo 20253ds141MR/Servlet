@@ -10,7 +10,10 @@
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
-<a href="servlet-formulario">Formulario</a>
+
+<p>
+    <a href="servlet-formulario">Formulario</a>
+</p>
 <p>
     <a href="servlet-usuario">Consultar usuario</a>
 </p>
